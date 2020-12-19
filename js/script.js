@@ -30,12 +30,12 @@ var onClick = function() {
 
  setTimeout( function ()
    {
-   var askQuestion = prompt("ASK ME ANYTHING!" , "Will I ever learn Javascript?");
+   var askQuestion = prompt("ASK ME ANYTHING!" , "Will 2021 be a good year?");
     magic8Ball.questionMagic8Ball("question");
   }, 500);
 
 
-}; 
+};
 
 $("#questionButton").click(onClick);
 
